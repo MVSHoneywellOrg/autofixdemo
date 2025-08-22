@@ -38,4 +38,4 @@ def xss():
     return render_template_string(f"<h1>Welcome {name}</h1>")  # ❌ unsanitized
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
